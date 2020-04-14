@@ -1,3 +1,10 @@
+
+body {
+    background-color: #343a40;
+    opacity: 0.8;
+}
+
+
 /*--Top Nav--*/
 
 .navbar-toggler {
@@ -11,6 +18,18 @@
 .navbar-dark .myBrand {
     color: burlywood;
 }
+
+/*--Landing Page and Image--*/
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#landing-page {
+    z-index: 1;
+}
+
 
 /*--Footer--*/
 
