@@ -1,0 +1,13 @@
+.navbar-toggler {
+    border-color:transparent;
+}
+
+#topnav {
+    z-index: 1000;
+}
+
+.navbar-dark .myBrand {
+    color: burlywood;
+}
+
+
