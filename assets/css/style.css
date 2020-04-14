@@ -1,3 +1,5 @@
+/*--Top Nav--*/
+
 .navbar-toggler {
     border-color:transparent;
 }
@@ -10,4 +12,24 @@
     color: burlywood;
 }
 
+/*--Footer--*/
 
+.footer-container {
+    padding: 10px;
+    text-align: center;
+}
+
+
+#logo-footer a {
+            color: burlywood;
+        }
+
+.copyright a {
+    color: black; 
+}
+
+.social-links a {
+        color: black;
+        font-size: 26px;
+        padding: 5px 5px 5px 5px;
+}
