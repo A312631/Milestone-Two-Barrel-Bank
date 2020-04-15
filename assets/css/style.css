@@ -1,13 +1,13 @@
-
 body {
-    background-color: #343a40;
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(40, 48, 48);
 }
-
 
 /*--Top Nav--*/
 
 .navbar-toggler {
-    border-color:transparent;
+    border-color:transparent; /*--possible duplication with BS4--*/
 }
 
 #topnav {
