@@ -1,7 +1,6 @@
 
 body {
     background-color: #343a40;
-    opacity: 0.8;
 }
 
 
@@ -26,9 +25,29 @@ body {
     padding-left: 0px;
 }
 
+.img-fluid {
+    min-width: 100%;
+    max-width: none;
+}
+
 #landing-page {
+    position: relative;
+    display: inline-block;
     z-index: 1;
 }
+
+.landing-text span{
+        position: absolute;
+        font-size: 90px;
+        border-radius: 5px;
+        color: rgb(218, 151, 63);
+        z-index: 500;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; 
+        width: 60%; 
+    }
 
 
 /*--Footer--*/
