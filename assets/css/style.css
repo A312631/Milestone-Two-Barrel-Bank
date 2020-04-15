@@ -1,6 +1,5 @@
 body {
     color: antiquewhite;
-    text-align: center;
     background-color: rgb(40, 48, 48);
 }
 
@@ -27,7 +26,6 @@ body {
 
 .img-fluid {
     min-width: 100%;
-    max-width: none;
 }
 
 #landing-page {
@@ -46,9 +44,22 @@ body {
         left: 0;
         right: 0;
         top: 40%; 
-        width: 60%; 
+        width: 50%; 
     }
+/*Carousel Section--*/
 
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+  }
+
+  .carousel-caption {
+    font-size: 135%;
+    right: 65%;
+    left: 2em;
+}
 
 /*--Footer--*/
 
