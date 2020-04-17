@@ -1,6 +1,6 @@
 
 
-//Display style for collapsible buttons
+//Toggle collapsible buttons
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
