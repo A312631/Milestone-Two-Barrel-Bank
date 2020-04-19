@@ -55,6 +55,26 @@ h1, h2, h3, h4, h5, h6 {
         top: 40%; 
         width: 50%; 
     }
+
+/*About Section*/
+
+
+#about h1 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#about h3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 /*Carousel Section--*/
 
 /* Make the image fully responsive */
@@ -90,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 #more-info h3 {
    width: 100vw; 
    padding-top: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 80px;
 }
 
 #more-info .info-btn {
@@ -157,10 +177,37 @@ text-decoration:none !important;
   transition: max-height 0.3s ease-out;
 }
 
+/*Find Us section*/
+
+#find-us h1 {
+   width: 100vw;
+   padding-top: 50px;
+   padding-bottom: 50px; 
+}
+
+#find-us p {
+   padding-top: 50px;
+   padding-bottom: 50px;  
+}
+
+.map {
+    display:block;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.map div {
+    width: 48vw;
+    padding: 10px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+}
+
 /*--Footer--*/
 
 .footer-container {
-    padding: 10px;
+    padding: 50px 10px 50px 10px;
     text-align: center;
 }
 
