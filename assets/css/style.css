@@ -1,6 +1,17 @@
+/*-------------------General scroll behaviour*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
     color: antiquewhite;
     background-color: rgb(40, 48, 48);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
 }
 
 /*--Top Nav--*/
@@ -27,6 +38,10 @@ body {
     position: relative;
     display: inline-block;
     z-index: 1;
+}
+
+.landing-image {
+    max-height: 90vh;
 }
 
 .landing-text span{
@@ -58,8 +73,8 @@ body {
 /*--More Info section--*/
 
 #more-info {
-   padding-top: 50px;
-   padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .col-sm-4 {
@@ -80,6 +95,28 @@ body {
 
 #more-info .info-btn {
     display: inline-block;
+    color: white;
+}
+
+.btn-image-1 {
+    background-image: url(/assets/images/barrel-bank-home.jpg);
+    background-repeat: no-repeat;
+    background-size: clip;
+    background-position: fixed;
+}
+
+.btn-image-2 {
+    background-image: url(/assets/images/btn-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: clip;
+    background-position: fixed;
+}
+
+.btn-image-3 {
+    background-image: url(/assets/images/btn-image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: clip;
+    background-position: fixed;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -107,6 +144,7 @@ text-decoration:none !important;
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
+  background-image: none;  
   background-color: rgb(218, 151, 63);
 }
 
@@ -140,3 +178,14 @@ text-decoration:none !important;
         font-size: 26px;
         padding: 5px 5px 5px 5px;
 }
+
+
+/*--@media--*/
+
+@media screen and (min-width:1441px) {
+    .info-btn {
+        max-height: 430px;
+        max-width: 25vw;
+    }
+}
+

@@ -1,4 +1,8 @@
 
+//Collapsible button dynamic aspect ratio
+
+var cw = $('.info-btn').width();
+$('.info-btn').css({'height':cw +'px'});
 
 //Toggle collapsible buttons
 
