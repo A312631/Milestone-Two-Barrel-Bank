@@ -229,6 +229,24 @@ text-decoration:none !important;
 
 /*--@media--*/
 
+@media screen and (max-width:1024px) {
+    #landing-page span {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #landing-page span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #landing-page span {
+        font-size: 28px;
+    }
+}
+
 @media screen and (min-width:1441px) {
     .info-btn {
         max-height: 430px;
