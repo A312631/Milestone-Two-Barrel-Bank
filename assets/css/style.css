@@ -7,7 +7,32 @@ html {
 
 body {
     color: antiquewhite;
-    background-color: rgb(40, 48, 48);
+    background-color: #343a40;
+}
+
+#top-button {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    z-index: 1001;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#top-button:hover {
+  background-color: #343a40;
+  color: burlywood;
+}
+
+button, input, optgroup, select, textarea {
+    line-height: normal; /*--remove 'reboot.scss.317 - line-height:inherit' to make button round--*/
 }
 
 h1, h2, h3, h4, h5, h6 {

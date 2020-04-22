@@ -1,4 +1,24 @@
 
+//Get top-button
+var mybutton = document.getElementById("top-button");
+
+// When the user scrolls down 30px from the top of the document show top-button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on top-button scroll back to top of document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 //Collapsible button dynamic aspect ratio
 
 var cw = $('.info-btn').width();
