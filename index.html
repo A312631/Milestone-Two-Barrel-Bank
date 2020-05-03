@@ -146,13 +146,15 @@
 		</div>
 	</section>
 
+    <!-- Find Us section with Google Maps API showing global distillery locations -->
+
     <section id="find-us" class="container-fluid text-center">
       <div class="row ">
        <h1>How To Find Us</h1>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quas odit placeat laborum quibusdam. Recusandae nesciunt quae sapiente minus laudantium. Velit quos sint aliquid ab expedita. Officia minima amet delectus?</p>
-       <div class="map">
-         <div class="col-sx-12"></div>
-         <div class="col-sx-12"></div>
+       <div class="col-12 map-wrapper">
+         <div id="map" class="map-div col-12"></div>
+         <div class="map-info-div col-12"></div>
        </div>
       </div> 
     </section>   
@@ -201,8 +203,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-	<script type="text/javascript" src="../assets/js/index.js" rel="stylesheet"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAE1UZaobsksu6NyySimmnUAngeKyOpBl8&callback=initMap"
+    async defer></script>
+    <script type="text/javascript" src="../assets/js/index.js" rel="stylesheet"></script>
 
 </body>
 
