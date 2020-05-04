@@ -45,19 +45,34 @@ for (i = 0; i < coll.length; i++) {
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
+        zoom: 1,
         center: {
-            lat: 46.619261,
-            lng: -33.134766
+            lat: 51.503744,
+            lng: -0.091751
         }
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    var locations = [
-        { lat: 40.785091, lng: -73.968285 },
-        { lat: 41.084045, lng: -73.874245 },
-        { lat: 40.754932, lng: -73.984016 }
+    var locations = [ //{ lat: , lng:}
+        { lat: 51.503744, lng: -0.091751 }, //51.503744, -0.091751 - UK - The Whiskey Exchange - https://www.thewhiskyexchange.com/shops/londonbridge
+        { lat: 57.490100, lng: -2.291837 }, //57.490100, -2.291837 - Scotland - Glen Garioch Distillery - https://www.glengarioch.com/
+        { lat: 57.117984, lng: 12.641980 }, //57.117984, 12.641980 - Sweden - Copenhagen Distillery - https://copenhagendistillery.com/
+        { lat: 39.509838, lng: -106.052244}, //39.509838, -106.052244 - USA - Breckenridge Distillery - https://breckenridgedistillery.com/
+        { lat: 43.509032, lng: -79.672828}, //43.509032, -79.672828 - Canada - Maverick Distilleries - https://www.maverickdistillery.com/
+        { lat: 34.893309, lng: 135.674590}, //34.893309, 135.674590 - Japan - Beam Suntory( Habiki 21 yo most awarded in world) - https://www.suntory.co.jp/factory/yamazaki/
+        { lat: -35.040166, lng: 117.847810}, //-35.040166, 117.847810 - Australia - Limeburners Distillery - https://www.distillery.com.au/
+        { lat: 12.889815, lng: 77.452130}, //12.889815, 77.452130 - India - Amrut Distilleries - https://www.amrutdistilleries.com/
+        { lat: 24.714143, lng: 121.691838}, // 24.714143, 121.691838 - Taiwan - Kavalan Distillery - http://www.kavalanwhisky.com/zh-tw/intro.php?ref=aW5kZXgucGhw
+        { lat: 49.983468, lng: 9.176055},  //49.983468, 9.176055 - Germany - Kilian Whisky Distillers - https://www.stkiliandistillers.com/
+        { lat: 60.722613, lng: 17.103251}, //60.722613, 17.103251 - Sweden - Mackmyra Whisky - https://mackmyra.se/
+        { lat: -42.522365, lng: 147.444618}, //-42.522365, 147.444618 - Tasmania/Australia - https://sullivanscove.com/
+        { lat: 51.023153, lng: -114.027041}, //51.023153, -114.027041 - Canada - Alberta Distillers Limited - https://www.albertadistillers.com/
+        { lat: 53.417940, lng: -6.277223}, //53.417940, -6.277223 - Ireland - Jameson - https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st
+        { lat: 35.286694, lng: -86.364055}, //35.286694, -86.364055 - USA - Jack Daniels Distillery - https://www.jackdaniels.com/en-gb/
+        { lat: -33.573923, lng: 18.992076}, //-33.573923, 18.992076 - South Africa - Bain's Whisky Distillery - https://www.bainswhisky.com/welcome
+        { lat: 53.223255, lng: 8.210116},  //53.223255, 8.210116 - Germany - The LÜBBEHUSEN - https://theluebbehusen.com/
+        { lat: 64.256398, lng: -21.976955} //64.256398, -21.976955 - Iceland - Eimverk Distillery - https://flokiwhisky.is/floki-icelandic-single-malt-whisky/tours/
     ];
 
     var markers = locations.map(function(location, i) {
